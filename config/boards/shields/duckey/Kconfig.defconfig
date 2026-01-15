@@ -1,0 +1,34 @@
+if SHIELD_DUCKEY_L || SHIELD_DUCKEY_R
+
+config ZMK_KEYBOARD_NAME
+    default "Duckey"
+
+config ZMK_SPLIT
+    default y
+
+config NFCT_PINS_AS_GPIOS
+    default y
+
+config ZMK_POINTING
+    default y
+
+config ZMK_MOUSE
+    default y
+
+config INPUT
+    default y
+
+config SPI
+    default y
+
+config PMW3610_ALT
+    default y
+
+endif
+
+if SHIELD_DUCKEY_R
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif

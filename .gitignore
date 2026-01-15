@@ -1,0 +1,16 @@
+# West workspace
+_west/
+
+# Build artifacts
+firmware_builds/
+build/
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

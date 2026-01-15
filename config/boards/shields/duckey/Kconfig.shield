@@ -1,0 +1,5 @@
+config SHIELD_DUCKEY_R
+    def_bool $(shields_list_contains,duckey_R)
+
+config SHIELD_DUCKEY_L
+    def_bool $(shields_list_contains,duckey_L)

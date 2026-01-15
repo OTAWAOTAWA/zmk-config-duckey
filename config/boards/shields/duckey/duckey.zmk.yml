@@ -1,0 +1,12 @@
+file_format: "1"
+id: duckey
+name: Duckey
+type: shield
+url: https://github.com/ogu/zmk-config-duckey
+requires: [seeeduino_xiao_ble]
+siblings:
+  - duckey_L
+  - duckey_R
+features:
+  - keys
+  - pointer
