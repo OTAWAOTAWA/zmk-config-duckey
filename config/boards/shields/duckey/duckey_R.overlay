@@ -35,11 +35,6 @@
     require-prior-idle-ms = <200>;
 };
 
-// マウスクリック時のオートマウスレイヤー
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 4 250>;
-};
-
 // セントラルのリスナーを有効化し、deviceを紐付け
 &central_listener {
     status = "okay";
