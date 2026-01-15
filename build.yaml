@@ -4,3 +4,5 @@ include:
     shield: duckey_R
   - board: xiao_ble
     shield: duckey_L
+  - board: xiao_ble
+    shield: settings_reset
