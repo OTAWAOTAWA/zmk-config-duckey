@@ -3,7 +3,7 @@ id: duckey
 name: Duckey
 type: shield
 url: https://github.com/ogu/zmk-config-duckey
-requires: [seeeduino_xiao_ble]
+requires: [xiao_ble]
 siblings:
   - duckey_L
   - duckey_R

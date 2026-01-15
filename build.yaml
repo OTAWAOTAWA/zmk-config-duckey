@@ -1,6 +1,6 @@
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: duckey_R
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: duckey_L
