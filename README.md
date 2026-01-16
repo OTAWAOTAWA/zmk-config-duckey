@@ -1,6 +1,6 @@
 # zmk-config-duckey
 
-ZMK firmware configuration for Duckey (Conductor) split keyboard.
+ZMK firmware configuration for Duckey split keyboard.
 
 ## License
 
